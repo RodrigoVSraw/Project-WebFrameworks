@@ -16,7 +16,7 @@ export class App {
 
   
  constructor(private http: HttpClient) {
-   this.apiURL = 'http://localhost:3000';
+   this.apiURL = 'https://apitarefasrodrigoraw257693.up.railway.app';
    this.READ_tarefas();
  }
 
